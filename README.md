@@ -1,6 +1,6 @@
 Python 3 SDK
 =============
-The Python SDK is a client class for our V2 API. It allows you to do GET, POST, 
+The Python SDK is a client class for our V3 API. It allows you to do GET, POST, 
 PUT, PATCH and DELETE requests to our API by simply specifying the path to the 
 and a (dictionary) parameter to represent the (JSON) data you want to send. 
 
