@@ -1,1 +1,1 @@
-ooyala-python-v3-sdk
+ooyala

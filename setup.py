@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 PACKAGES = [
-    "ooyala-python-v3-sdk"
+    "ooyala"
 ]
 
 
