@@ -1,10 +1,8 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 PACKAGES = [
     "ooyala"
 ]
-
-
 
 setup(name='ooyala-python-v3-sdk',
         packages=PACKAGES,
