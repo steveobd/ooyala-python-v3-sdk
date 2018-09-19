@@ -1,0 +1,7 @@
+README.md
+setup.py
+ooyala-python-v3-sdk/api.py
+ooyala_python_v3_sdk.egg-info/PKG-INFO
+ooyala_python_v3_sdk.egg-info/SOURCES.txt
+ooyala_python_v3_sdk.egg-info/dependency_links.txt
+ooyala_python_v3_sdk.egg-info/top_level.txt
