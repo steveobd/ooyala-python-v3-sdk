@@ -14,7 +14,7 @@ import hashlib, base64, urllib.request, urllib.parse, urllib.error, http.client,
 HTTP_METHODS = ['GET', 'POST', 'PUT', 'PATCH', 'DELETE']    
 DEFAULT_EXPIRATION_WINDOW = 1500
 DEFAULT_ROUND_UP_TIME = 300
-API_VERSION = 'v2'
+API_VERSION = 'v3'
 DEFAULT_BASE_URL = 'api.ooyala.com'
 DEFAULT_CACHE_BASE_URL = 'cdn-api.ooyala.com'
 
