@@ -1,5 +1,6 @@
 README.md
 setup.py
+ooyala/__init__.py
 ooyala/api.py
 ooyala_python_v3_sdk.egg-info/PKG-INFO
 ooyala_python_v3_sdk.egg-info/SOURCES.txt
