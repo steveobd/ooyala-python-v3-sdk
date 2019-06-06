@@ -26,7 +26,8 @@ class OoyalaAPI(object):
                 secret_key,
                 base_url=DEFAULT_BASE_URL,
                 cache_base_url=DEFAULT_CACHE_BASE_URL,
-                expiration=DEFAULT_EXPIRATION_WINDOW):
+                expiration=DEFAULT_EXPIRATION_WINDOW,
+                version=API_VERSION):
         """OoyalaAPI Constructor
         
         Type signature:
@@ -36,6 +37,7 @@ class OoyalaAPI(object):
             secret_key - The secret key
             base_url   - the url's base
             expiration - the expiration window, in seconds
+            version    - the version of the api
         Example:
             api = OoyalaAPI("..", "..")
         """
@@ -44,6 +46,7 @@ class OoyalaAPI(object):
         self._base_url = base_url
         self._cache_base_url = cache_base_url
         self._expiration_window = expiration
+        self._version = version
         self._response_headers = [()]
 
     def send_request(self, http_method, relative_path, body=None, params={}):
@@ -62,7 +65,7 @@ class OoyalaAPI(object):
             response = api.send_request('PATCH', 'players/2kj390', "{'name': 'my new player name'}")
         """
         # create the url
-        path = '/%s/%s' % (API_VERSION,relative_path)
+        path = '/%s/%s' % (self._version,relative_path)
         
         # Convert the body to JSON format
         json_body = ''
